@@ -52,6 +52,13 @@ export const attorneys = [
     focus: "Personal Injury",
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
   },
+  {
+  id: 4,
+  name: "Olivia Carter",
+  role: "Associate Attorney",
+  focus: "Estate Planning & Family Law",
+  image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
+}
 ]
 
 export const testimonials = [
@@ -73,6 +80,12 @@ export const testimonials = [
     text: "They handled my concerns with care and made a complicated process easier to understand.",
     service: "Personal Injury",
   },
+  {
+  id: 4,
+  name: "Amanda T.",
+  text: "The team made a complicated legal process easier to understand. I appreciated their clear communication and attention to detail.",
+  service: "Estate Planning",
+},
 ]
 
 export const faqs = [

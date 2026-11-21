@@ -43,9 +43,7 @@ function Footer() {
         <p className="text-xs text-gray-400">
           © {new Date().getFullYear()} {firm.name}. All rights reserved.
         </p>
-        <p className="mt-2 text-xs text-gray-400">
-          Fictional website concept created for portfolio demonstration purposes.
-        </p>
+        
       </div>
     </footer>
   )
