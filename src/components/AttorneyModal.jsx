@@ -1,4 +1,3 @@
-
 import { X } from "lucide-react";
 
 function AttorneyModal({ attorney, onClose }) {
@@ -10,7 +9,7 @@ function AttorneyModal({ attorney, onClose }) {
       onClick={onClose}
     >
       <div
-        className="relative grid w-full max-w-4xl overflow-hidden bg-ivory md:grid-cols-[0.85fr_1.15fr]"
+        className="relative grid max-h-[90vh] w-full max-w-4xl overflow-y-auto bg-ivory md:grid-cols-[0.85fr_1.15fr]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
@@ -21,18 +20,18 @@ function AttorneyModal({ attorney, onClose }) {
         >
           <X size={20} />
         </button>
-
-        {/* Attorney Image */}
-        <div className="h-80 md:h-[520px]">
-          <img
-            src={attorney.image}
-            alt={attorney.name}
-            className="h-full w-full object-cover"
-          />
-        </div>
+{/* Attorney Image */}
+<div className="h-80 overflow-hidden bg-transparent md:h-full md:min-h-[520px]">
+  <img
+    src={attorney.image}
+    alt={attorney.name}
+    className="h-full w-full object-contain md:object-cover md:object-center"
+  />
+</div>
+       
 
         {/* Attorney Details */}
-        <div className="flex flex-col justify-center p-8 md:p-10">
+        <div className="flex flex-col justify-center p-6 md:p-10">
           <p className="mb-3 text-xs font-semibold tracking-[0.2em] text-antique-gold">
             {attorney.role}
           </p>

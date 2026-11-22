@@ -1,5 +1,5 @@
 export const firm = {
-  name: "Hartwell Law LLP",
+  name: "Hartwell Law, PLLC",
   phone: "555-0101",
   email: "info@hartwelllaw.example",
   city: "Charlotte",
@@ -42,7 +42,7 @@ export const attorneys = [
     focus: "Business Law & Estate Planning",
     experience: "18 Years of Experience",
     bio: "James leads the firm with a focus on business law and estate planning. He works with business owners, families, and individuals to navigate complex legal matters and plan for the future.",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+    image: "https://images.openai.com/static-rsc-4/fy8WCybngwrSttCeliJpFXzgmTyhtpLx3Szn3WhomJi4QkibIKXHwWuNzojPh-0Ec8Q1026M8vMzR77_GS1i8PIyIddzP5viPRYwzgcTSQwu3iAcMjp8tyewGvg2wgEF0Rd3khroqYd1WM4jNmvJpalr6rbp40yg-HFL2Z6myUBI4RUpFHcFCFf4jWrrq9PI?purpose=fullsize",
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const attorneys = [
     focus: "Family Law",
     experience: "12 Years of Experience",
     bio: "Sarah focuses on family law, helping clients navigate divorce, child custody, and other family-related matters with thoughtful and practical legal guidance.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956",
+    image: "https://images.openai.com/static-rsc-4/u1kjDY-vgeV4ZtisIH6544ZqnjTrZCb_p9-mAuNxvp9pvCaub871gTkD-1pLkCOCasYjbKui20CnkkpHY4dVib3E7S1xXpDb13rC53tuSX1jH8P1Qd39Ff81nYgvU-Hd0F2uL8zIUeK9i1MnZgYOw2IfAJiJfmVCDlYk1l9C6pdGbbu0NZpXpMwTpYYWJUYM?purpose=fullsize",
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ export const attorneys = [
     focus: "Personal Injury",
     experience: "10 Years of Experience",
     bio: "David represents individuals pursuing personal injury claims. His work focuses on helping clients understand their legal options and navigate the claims process.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+    image: "https://images.openai.com/static-rsc-4/us8cb06vEcHew1KyrKOMQ5OzvzMNgaSH313t99oMDvEa1b8BYZvyBWztZVdTtZJB6Xh7_RBc2BSnn6NCMSstyu0B-8YvHak15SKTmJQwZiiqDCq0vR3Y899MazqW9Bcv8edXXm_iOAupNqFB3kuUedjJ0HvrZoJBn0aAn5gAUj7ND73akcJF-0nJqSN_6Dqx?purpose=fullsize",
   },
   {
     id: 4,
@@ -69,9 +69,9 @@ export const attorneys = [
     focus: "Estate Planning & Family Law",
     experience: "6 Years of Experience",
     bio: "Olivia assists individuals and families with estate planning and family law matters, helping them make informed decisions about important personal and financial matters.",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
+    image: "https://images.openai.com/static-rsc-4/WDMwCSsMh1bMVrP9dM2knwdB5QLK06SDUV-9Kq71RM7kSi0_1eOR6Sv71rcWKoyBIOdm19WoHsBV2pvaq6Txb4Zo4QxhPkYbncy6qNMPubwI71ovmi4XXzT41Q0rN4lmtYALiFU-gOn_dcfThPK-SwuZ9uYl5On242GN3xFrqge2HpS8jL9hZBjj-nD2xoLh?purpose=fullsize",
   },
-]
+];
 
 export const testimonials = [
   {
