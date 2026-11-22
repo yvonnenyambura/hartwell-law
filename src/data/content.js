@@ -12,21 +12,25 @@ export const practiceAreas = [
     id: 1,
     title: "Personal Injury",
     description: "Helping individuals pursue compensation after accidents and injuries.",
+    image: "https://images.unsplash.com/photo-1676181739859-08330dea8999?auto=format&fit=crop&fm=jpg&q=80&w=1200",
   },
   {
     id: 2,
     title: "Family Law",
     description: "Providing guidance through divorce, custody and other family matters.",
+    image: "https://images.unsplash.com/photo-1758227365187-016878604d94?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
   },
   {
     id: 3,
     title: "Estate Planning",
     description: "Helping families protect their assets and plan for the future.",
+    image: "https://images.unsplash.com/photo-1763729805496-b5dbf7f00c79?auto=format&fit=crop&fm=jpg&q=80&w=1200",
   },
   {
     id: 4,
     title: "Business Law",
     description: "Supporting businesses with contracts, legal agreements and commercial matters.",
+    image: "https://images.unsplash.com/photo-1714974528737-3e6c7e4d11af?auto=format&fit=crop&fm=jpg&q=80&w=1200",
   },
 ]
 
@@ -36,6 +40,8 @@ export const attorneys = [
     name: "James Hartwell",
     role: "Managing Partner",
     focus: "Business Law & Estate Planning",
+    experience: "18 Years of Experience",
+    bio: "James leads the firm with a focus on business law and estate planning. He works with business owners, families, and individuals to navigate complex legal matters and plan for the future.",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a",
   },
   {
@@ -43,6 +49,8 @@ export const attorneys = [
     name: "Sarah Mitchell",
     role: "Senior Attorney",
     focus: "Family Law",
+    experience: "12 Years of Experience",
+    bio: "Sarah focuses on family law, helping clients navigate divorce, child custody, and other family-related matters with thoughtful and practical legal guidance.",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956",
   },
   {
@@ -50,15 +58,19 @@ export const attorneys = [
     name: "David Bennett",
     role: "Senior Attorney",
     focus: "Personal Injury",
+    experience: "10 Years of Experience",
+    bio: "David represents individuals pursuing personal injury claims. His work focuses on helping clients understand their legal options and navigate the claims process.",
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
   },
   {
-  id: 4,
-  name: "Olivia Carter",
-  role: "Associate Attorney",
-  focus: "Estate Planning & Family Law",
-  image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
-}
+    id: 4,
+    name: "Olivia Carter",
+    role: "Associate Attorney",
+    focus: "Estate Planning & Family Law",
+    experience: "6 Years of Experience",
+    bio: "Olivia assists individuals and families with estate planning and family law matters, helping them make informed decisions about important personal and financial matters.",
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
+  },
 ]
 
 export const testimonials = [
